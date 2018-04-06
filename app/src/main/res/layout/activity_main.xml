@@ -7,75 +7,131 @@
     android:layout_height="match_parent"
     tools:context="com.mayorquedospuntosuve.tallerpdm.MainActivity">
 
-    <TableRow android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" >
-        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:background="@color/colorPrimaryDark" android:layout_margin="4dp">
-            <ImageView  android:src="@drawable/tuerca" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1"/>
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+        <LinearLayout android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@color/colorSettings"
+            android:layout_margin="4dp">
+            <ImageView  android:src="@mipmap/tuerca"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Settings"
+                android:text="@string/settings"
                 android:textSize="24sp"
                 android:layout_gravity="center"
-                android:textColor="@color/colorAccent"
+                android:textColor="@color/colorTexto"
                 />
         </LinearLayout>
-        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:background="@color/colorPrimaryDark" android:layout_margin="4dp">
-            <ImageView  android:src="@drawable/tuerca" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1"/>
+        <LinearLayout android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@color/colorProfile"
+            android:gravity="center"
+            android:layout_margin="4dp">
+            <ImageView  android:src="@drawable/user"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Settings"
+                android:text="@string/Profile"
                 android:textSize="24sp"
                 android:layout_gravity="center"
-                android:textColor="@color/colorAccent"
-                />
-        </LinearLayout>
-    </TableRow>
-    <TableRow android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" >
-        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:background="@color/colorPrimaryDark" android:layout_margin="4dp">
-            <ImageView  android:src="@drawable/tuerca" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Settings"
-                android:textSize="24sp"
-                android:layout_gravity="center"
-                android:textColor="@color/colorAccent"
-                />
-        </LinearLayout>
-        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:background="@color/colorPrimaryDark" android:layout_margin="4dp">
-            <ImageView  android:src="@drawable/tuerca" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Settings"
-                android:textSize="24sp"
-                android:layout_gravity="center"
-                android:textColor="@color/colorAccent"
+                android:textColor="@color/colorTexto"
                 />
         </LinearLayout>
     </TableRow>
-    <TableRow android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" >
-        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:background="@color/colorPrimaryDark" android:layout_margin="4dp">
-            <ImageView  android:src="@drawable/tuerca" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1"/>
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+        <LinearLayout android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:layout_margin="4dp">
+            <ImageView  android:src="@drawable/carpeta"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Settings"
+                android:text="@string/favorites"
                 android:textSize="24sp"
                 android:layout_gravity="center"
-                android:textColor="@color/colorAccent"
+                android:textColor="@color/colorTexto"
                 />
         </LinearLayout>
-        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:background="@color/colorPrimaryDark" android:layout_margin="4dp">
-            <ImageView  android:src="@drawable/tuerca" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1"/>
+        <LinearLayout android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@color/colorIncome"
+            android:layout_margin="4dp">
+            <ImageView  android:src="@drawable/money"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Settings"
+                android:text="@string/income"
                 android:textSize="24sp"
                 android:layout_gravity="center"
-                android:textColor="@color/colorAccent"
+                android:textColor="@color/colorTexto"
+                />
+        </LinearLayout>
+    </TableRow>
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+        <LinearLayout android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBudget"
+            android:layout_margin="4dp">
+            <ImageView  android:src="@drawable/calcu"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/budget"
+                android:textSize="24sp"
+                android:layout_gravity="center"
+                android:textColor="@color/colorTexto"
+                />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@color/colorEgress"
+            android:layout_margin="4dp">
+            <ImageView  android:src="@drawable/ingreso"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/egress"
+                android:textSize="24sp"
+                android:layout_gravity="center"
+                android:textColor="@color/colorTexto"
                 />
         </LinearLayout>
     </TableRow>
